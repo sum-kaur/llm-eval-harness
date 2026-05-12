@@ -6,13 +6,13 @@ A production-quality CLI for running prompt-based test suites against LLMs, trac
 
 ## Features
 
-- **YAML test definitions** — readable, version-controllable test suites
-- **8 evaluator types** — exact match, contains, not-contains, regex, starts/ends-with, JSON schema, and LLM-as-judge
-- **Async runner** — parallel test execution with configurable concurrency, retries, and per-test timeouts
-- **Persistent history** — all runs saved to SQLite; compare any two runs at any time
-- **Baseline regression detection** — mark a passing run as the baseline; future CI runs exit non-zero only when tests regress
-- **4 output formats** — rich terminal table, JSON, self-contained HTML report, JUnit XML
-- **Multi-provider** — Anthropic and OpenAI (including any OpenAI-compatible endpoint)
+- **YAML test definitions** - readable, version-controllable test suites
+- **8 evaluator types** - exact match, contains, not-contains, regex, starts/ends-with, JSON schema, and LLM-as-judge
+- **Async runner** - parallel test execution with configurable concurrency, retries, and per-test timeouts
+- **Persistent history** - all runs saved to SQLite; compare any two runs at any time
+- **Baseline regression detection** - mark a passing run as the baseline; future CI runs exit non-zero only when tests regress
+- **4 output formats** - rich terminal table, JSON, self-contained HTML report, JUnit XML
+- **Multi-provider** - Anthropic and OpenAI (including any OpenAI-compatible endpoint)
 
 ---
 
