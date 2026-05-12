@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+.venv/
+venv/
+env/
+
+# Eval harness runtime files
+*.db
+*.db-shm
+*.db-wal
+report.html
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
